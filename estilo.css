@@ -1,0 +1,102 @@
+* {
+	margin: 0px; padding: 0px;
+}
+body {
+	background: rgb(255, 255, 255); color: black; line-height: 1.6em; font-family: Arial, sans-serif; font-size: 13px;
+}
+p {
+	margin: 15px 0px;
+}
+h2 {
+	margin-top: 20px;
+}
+#container {
+	background: rgb(255, 255, 255); margin: 0px auto; width: 600px; max-width: 450px;
+}
+#content {
+	padding: 0px 15px;
+}
+footer {
+	width: 100%; text-align: center; font-size: 11px; display: block;
+}
+img {
+	max-width: 100%;
+}
+#imgLogoPrinc {
+	width: 100%;
+}
+.botonPrinc {
+	padding: 7px 13px; border-radius: 8px; color: rgb(255, 255, 255); line-height: 1; font-family: ‘Pacifico’, Arial, sans-serif; font-size: 25px; text-decoration: none; display: inline-block; box-shadow: 0px 5px 0px #292e96, 0px 7px 7px rgba(0,0,0,0.4); text-shadow: 0px -1px 1px rgba(25,123,29,0.7); background-image: linear-gradient(rgba(41, 46, 150, 0.8), rgba(45, 194, 52, 0.2)); background-color: rgb(41, 46, 150); -ms-border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; -webkit-box-shadow: 0 5px 0 #292e96, 0 7px 7px rgba(0, 0, 0, .4); -moz-box-shadow: 0 5px 0 #292e96, 0 7px 7px rgba(0, 0, 0, .4);
+}
+.boton {
+	padding: 6px 13px; border-radius: 8px; color: rgb(255, 255, 255); line-height: 1; font-family: ‘Pacifico’, Arial, sans-serif; font-size: 16px; text-decoration: none; display: inline-block; box-shadow: 0px 5px 0px #292e96, 0px 7px 7px rgba(0,0,0,0.4); text-shadow: 0px -1px 1px rgba(25,123,29,0.7); background-image: linear-gradient(rgba(41, 46, 150, 0.8), rgba(45, 194, 52, 0.2)); background-color: rgb(41, 46, 150); -ms-border-radius: 8px; -webkit-border-radius: 8px; -moz-border-radius: 8px; -webkit-box-shadow: 0 5px 0 #292e96, 0 7px 7px rgba(0, 0, 0, .4); -moz-box-shadow: 0 5px 0 #292e96, 0 7px 7px rgba(0, 0, 0, .4);
+}
+input.botonPeque {
+	border: 1px solid rgb(172, 115, 0); height: 20px; color: rgb(255, 255, 255); padding-right: 10px; padding-left: 10px; font-family: arial; font-size: 12px; font-weight: bold; cursor: pointer; background-color: rgb(225, 125, 9);
+}
+#tdPie {
+	padding-top: 10px;
+}
+table.tabApartado {
+	border: 1px solid rgb(212, 210, 210); border-image: none; width: 100%; margin-bottom: 8px; border-spacing: 0px; background-color: rgb(248, 242, 218);
+}
+table.tabApartado tr.cab td {
+	height: 15px; color: white; padding-right: 5px; padding-left: 5px; font-size: 11px; font-weight: bold; background-color: rgb(225, 125, 9);
+}
+table.tabGrid {
+	border: 1px solid silver; font-family: Verdana, Geneva, sans-serif; font-size: 9px;
+}
+table tr.cabGrid {
+	height: 19px; color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-size: 12px; background-color: rgb(225, 125, 9);
+}
+table tr.detGrid {
+	color: black; background-color: rgb(255, 255, 255);
+}
+table tr.detGrid2 {
+	color: black; background-color: rgb(248, 242, 218);
+}
+table tr.detGridMouseOver {
+	color: black; background-color: rgb(189, 205, 241);
+}
+table.tabGrid tr td {
+	border-width: 1px; border-color: rgb(223, 223, 224) silver silver; padding: 2px; border-top-style: solid; border-right-style: solid;
+}
+table.tabGrid tr.cabGrid td {
+	padding: 1px 4px; color: rgb(255, 255, 255); font-weight: bold;
+}
+.titOption {
+	color: rgb(228, 126, 0); font-family: "Times New Roman", Times, serif; font-size: 14px; font-weight: bold;
+}
+@media screen and (min-width:1200px)
+{
+img {
+	
+}
+#container {
+	width: 1100px;
+}
+}
+@media screen and (max-width:600px)
+{
+img {
+	
+}
+#container {
+	width: auto;
+}
+.boton {
+	font-size: 22px;
+}
+}
+@media screen and (max-width:320px)
+{
+img {
+	
+}
+#container {
+	width: auto;
+}
+.boton {
+	font-size: 13px;
+}
+}
