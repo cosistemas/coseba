@@ -8,13 +8,15 @@ function jsOnclickLogoPrem()
 }
 
 function jsMisSeguros()
-{
+{		
+	alert("ha pulsado mi seguros");
 	location.href="index.php?boton=misSeguros";
 }
 
 function jsSiniestros()
 {
-	location.href="index.php?boton=siniestros";
+	alert("ha pulsado siniestros");
+	//location.href="index.php?boton=siniestros";
 }
 
 function jsOficinas()
