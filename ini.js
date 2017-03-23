@@ -1,7 +1,7 @@
 function jsOnclickLogoCos()
 {
 	alert("prueba 4.2");
-		//openInWebView("https://google.es");	
+		openInWebView("https://google.es");	
 //navigator.app.loadUrl('https://google.com/', { openExternal:true });
 	window.open("http://www.coseba.com","_system");
 		
