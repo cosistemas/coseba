@@ -34,7 +34,7 @@ function jsSiniestros()
 {
 	alert("ha pulsado siniestros");
 	//location.href="index.php?boton=siniestros";
-	$("#capa").load('https://www.ecorgest.com/ecorcli/index.php?boton=acc.inicio');
+	$("#content").load('https://www.ecorgest.com/ecorcli/index.php?boton=acc.inicio');
 }
 
 function jsOficinas()
