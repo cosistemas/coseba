@@ -1,12 +1,23 @@
 function jsOnclickLogoCos()
 {
-	alert("prueba 3");
-	navigator.app.loadUrl('https://google.com/', { openExternal:true });
+	alert("prueba 4");
+		openInWebView("https://google.com");
+//navigator.app.loadUrl('https://google.com/', { openExternal:true });
 	//window.open("http://www.coseba.com","_system");
 		
 //alert("vamos a la web corporativa");	
 //location.href="http://www.coseba.com";	
 }
+function openInWebView(url)    
+{
+	var anchor = document.createElement('a');
+	anchor.setAttribute('href', url);
+	//anchor.setAttribute('target', '_self');
+	var dispatch = document.createEvent('HTMLEvents');
+	dispatch.initEvent('click', true, true);
+	anchor.dispatchEvent(dispatch);    
+}
+
 function jsOnclickLogoPrem()
 {
 	window.open("app/view/doc/premier.pdf");
