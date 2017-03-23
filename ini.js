@@ -1,3 +1,9 @@
+window.onload=ini;
+function ini()
+{
+	alert("inipag");
+}
+
 function jsOnclickLogoCos()
 {
 	alert("prueba 4.2");
