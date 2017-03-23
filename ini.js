@@ -1,12 +1,12 @@
 function jsOnclickLogoCos()
 {
-	alert("prueba 4.1");
-		openInWebView("https://google.es");	
+	alert("prueba 4.2");
+		//openInWebView("https://google.es");	
 //navigator.app.loadUrl('https://google.com/', { openExternal:true });
 	//window.open("http://www.coseba.com","_system");
 		
 //alert("vamos a la web corporativa");	
-//location.href="http://www.coseba.com";	
+location.href="http://www.coseba.com";	
 }
 function openInWebView(url)    
 {
