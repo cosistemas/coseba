@@ -1,6 +1,8 @@
 function jsOnclickLogoCos()
 {
-	window.open("http://www.coseba.com");
+	//window.open("http://www.coseba.com");
+	alert("vamos a la web corporativa");
+	location.href="http://www.coseba.com";	
 }
 function jsOnclickLogoPrem()
 {
@@ -10,7 +12,7 @@ function jsOnclickLogoPrem()
 function jsMisSeguros()
 {		
 	alert("ha pulsado mi seguros");
-	location.href="index.php?boton=misSeguros";
+	//location.href="index.php?boton=misSeguros";
 }
 
 function jsSiniestros()
