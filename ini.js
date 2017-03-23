@@ -5,7 +5,7 @@ function jsOnclickLogoCos()
 //navigator.app.loadUrl('https://google.com/', { openExternal:true });
 	window.open("http://www.coseba.com","_system");
 		
-//alert("vamos a la web corporativa");	
+alert("vamos a la web corporativa");	
 location.href="http://www.coseba.com";	
 }
 function openInWebView(url)    
